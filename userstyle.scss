@@ -1,0 +1,160 @@
+/* ==UserStyle==
+@name           Startpage Modernised
+@namespace      https://github.com/valk-ryx
+@version        1.0.0
+@description    A modern theme for the Startpage search engine.
+@author         Valkryx
+==/UserStyle== */
+
+@-moz-document domain("startpage.com") {
+    :root {
+        --sx-background: #2e3443 !important;
+    }
+    /* Remove chrome extension ad */
+    .css-4s0tg5 {
+        opacity: 0 !important;
+    }
+    /* Remove mobile app ad */
+    .css-13lqrqo {
+        opacity: 0 !important;
+    }
+   /* Accomodate for the removed app ad */
+    .css-1o337ku {
+        position: relative;
+        bottom: 150px;
+    }
+    /* Improvements to suggestions container */
+    .css-1alnko2 .search-form-container {
+        border: none !important;
+    }
+    .css-n5qp3t input:focus {
+        border: none;
+    }
+    .css-elzrq9 {
+        border: none;
+    }
+    .css-n5qp3t {
+        border: none;
+    }
+    .search-suggest.css-1hcywgz {
+        background: rgb(46, 52, 67) !important;
+    }
+    /* Improvements to summary section */
+    .css-wkjlye {
+        border: none;
+        border-radius: 12px;
+        background: #2e3443;
+    }
+    .css-1tvudrf tr {
+        background-color: #fff0 !important;
+    }
+    .sx-carousel.sx-carousel-wide-image .sx-carousel-item .sx-image {
+        border-radius: 12px;
+    }
+    .css-1f1l0oh {
+        background-color: rgb(13 17 26);
+        border: none;
+    }
+    .css-1tvudrf .sx-kp {
+        border: none !important;
+        border-radius: 12px;
+        background: #2e3443;
+    }
+    .css-1tvudrf .sx-kp-top .sx-kp-image-link img {
+        border-top-right-radius: 12px;
+    }
+    table.sx-infobox a.sx-large-image-link img {
+        border-radius: 12px;
+    }
+    table.sx-infobox div {
+        border-radius: 12px !important;
+    }
+    .sx-num-cells-1 {
+        border-top-left-radius: 12px;
+        border-radius-top-right: 12px;
+    }
+    .sx-kp-inner {
+        border: none !important;
+        border-radius: 12px;
+        background: #2e3443;
+    }
+    /* Remove "Privacy, please!" button */
+    .css-w1m7lx {
+        opacity: 0;
+    }
+    /* Improvements to video top section */
+    .sx-ia-youtube {
+        border-radius: 12px;
+        border: none;
+        background: #2e3443;
+    }
+    /* Improvements to news section */
+    .css-1jjdlw2 img {
+        border-radius: 12px;
+    }
+    /* Improvements to videos section */
+    .css-1rd2ev0 {
+        border-radius: 12px;
+    }
+    .css-zjmlpj {
+        border-radius: 6px;
+        backdrop-filter: blur(1px);
+    }
+    .css-6egl9d {
+        border-radius: 6px;
+        backdrop-filter: blur(1px);
+    }
+    /* Improvements to search filters */
+    .css-xkgl8h {
+        border-radius: 12px;
+    }
+    /* Improvements to image filters */
+    .css-1sl1t7 button {
+        border: none;
+    }
+    .css-r4713u {
+        border: none;
+        border-radius: 12px;
+    }
+    .css-xsccll {
+        border: none;
+        border-radius: 12px;
+    }
+    .css-i42sbd .dropdown-display {
+        border: none;
+        border-radius: 12px;
+    }
+    .css-1xrwb7a button {
+        border: none;
+    }
+    .css-6cz2y8 .glider-slide:hover button {
+        border-radius: 12px;
+    }
+    .css-6cz2y8 .glider.draggable .glider-slide img {
+        border-radius: 10px;
+    }
+    /* Improvements to image display */ .css-6j1ax5 {
+        border-radius: 12px;
+        border: none;
+    }
+    .no-script-hide css-6j1ax5 {
+        border-radius: 12px;
+        border: none;
+    }
+    .css-18jwy6i {
+        border-radius: 12px;
+        border: none;
+    }
+    /* Improvements to settings */ .css-mxzg25 .section-options {
+        border-radius: 12px;
+        border: none;
+    }
+    .css-1lacrq5 .form-select {
+        border-radius: 8px;
+        border: none;
+    }
+    .css-1f2jnsb {
+        border-radius: 8px;
+        border: none;
+    }
+}
